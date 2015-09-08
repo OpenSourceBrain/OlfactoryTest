@@ -29,3 +29,6 @@ simulations
 *.bak
 *py.class
 
+NEURON/*.dat
+
+
