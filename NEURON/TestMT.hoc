@@ -46,7 +46,28 @@ tstop = 100.0
 dt = 0.025
 steps_per_ms = 40.0
 
+
+objref v_time
+
+v_time = new Vector()
+{ v_time.record(&t) }
+
+objref Soma_v
+{ Soma_v = new Vector() }
+{ Soma_v.record(&mit.soma.v(0.5))} 
+
 {run()}
+
+
+
+objref f_Soma_si
+f_Soma_si = new File()
+{ f_Soma_si.wopen("SomaMT.si.dat") }
+for i=0, Soma_v.size()-1 {
+   f_Soma_si.printf("%f\t%f\n", v_time.x[i]/1000, Soma_v.x[i]/1000)
+}
+{ f_Soma_si.close() }
+
 
 print "Done!"
 
