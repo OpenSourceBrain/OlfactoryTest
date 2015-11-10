@@ -3,7 +3,7 @@ import matplotlib.pyplot as pylab
 import os.path
 
 
-chans = ['kdrmt', 'kamt']
+chans = ['kdrmt', 'kamt', 'nax']
 
 problematic = []
 

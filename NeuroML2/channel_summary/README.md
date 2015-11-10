@@ -6,6 +6,22 @@ Channel information
 <table>
     <tr>
 <td width="120px">
+            <sup><b>nax</b><br/>
+            <a href="../nax.channel.nml">nax.channel.nml</a><br/>
+            <b>Ion: na</b><br/>
+            <i>g = gmax * m<sup>3</sup> * h </i><br/>
+            Na channel for axon. Comment from original mod file: Na current for axon. No slow inact. M.Migliore Jul. 1997,
+        added sh to account for higher threshold M.Migliore, Apr.2002</sup>
+</td>
+<td>
+<a href="nax.inf.png"><img alt="nax steady state" src="nax.inf.png" height="220"/></a>
+</td>
+<td>
+<a href="nax.tau.png"><img alt="nax time course" src="nax.tau.png" height="220"/></a>
+</td>
+</tr>
+    <tr>
+<td width="120px">
             <sup><b>kdrmt</b><br/>
             <a href="../kdrmt.channel.nml">kdrmt.channel.nml</a><br/>
             <b>Ion: k</b><br/>
