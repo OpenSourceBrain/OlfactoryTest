@@ -174,7 +174,21 @@
                     <bio:parameter value="-65.0">
                         <bio:group>all</bio:group>
                     </bio:parameter>
-                </bio:init_memb_potential></biophysics>
+                </bio:init_memb_potential>
+
+                <bio:ion_props name="k">
+                    <bio:parameter name="e" value="-90.0">
+                        <bio:group>all</bio:group>
+                    </bio:parameter>
+                </bio:ion_props>
+            
+
+                <bio:ion_props name="na">
+                    <bio:parameter name="e" value="60.0">
+                        <bio:group>all</bio:group>
+                    </bio:parameter>
+                </bio:ion_props>
+            </biophysics>
 
             <connectivity/>
 

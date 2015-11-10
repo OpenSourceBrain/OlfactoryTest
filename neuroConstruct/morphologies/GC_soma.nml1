@@ -38,12 +38,6 @@
                     </bio:parameter>
                 </bio:mechanism>
 
-                <bio:mechanism name="kamt" type="Channel Mechanism">
-                    <bio:parameter name="gmax" value="8.0">
-                        <bio:group>ModelViewParmSubset_4</bio:group>
-                    </bio:parameter>
-                </bio:mechanism>
-
                 <bio:mechanism name="kdrmt" type="Channel Mechanism">
                     <bio:parameter name="gmax" value="6.0">
                         <bio:group>OneSecGrp_SectionRef_1</bio:group>
@@ -57,12 +51,6 @@
                     <bio:parameter name="sh" value="15.0">    <!--Note: Units of extra parameters are not known, except if it's e!!-->
 
                         <bio:group>all</bio:group>
-                    </bio:parameter>
-                </bio:mechanism>
-
-                <bio:mechanism name="nax" type="Channel Mechanism">
-                    <bio:parameter name="gmax" value="20.0">
-                        <bio:group>ModelViewParmSubset_4</bio:group>
                     </bio:parameter>
                 </bio:mechanism>
 
@@ -86,19 +74,9 @@
                         <bio:group>ModelViewParmSubset_3</bio:group>
                     </bio:parameter>
                 </bio:mechanism>
-
-                <bio:mechanism name="pas" type="Channel Mechanism" passive_conductance="true">
-                    <bio:parameter name="gmax" value="0.0333333">
-                        <bio:group>ModelViewParmSubset_2</bio:group>
-                    </bio:parameter>
-                </bio:mechanism>
                 
 
                 <bio:spec_capacitance>
-                    <bio:parameter value="1.0">
-                        <bio:group>ModelViewParmSubset_2</bio:group>
-                    </bio:parameter>
-                
                     <bio:parameter value="4.0">
                         <bio:group>ModelViewParmSubset_3</bio:group>
                     </bio:parameter>

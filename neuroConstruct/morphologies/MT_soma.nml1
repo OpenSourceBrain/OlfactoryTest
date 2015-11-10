@@ -36,12 +36,6 @@
                     </bio:parameter>
                 </bio:mechanism>
 
-                <bio:mechanism name="kamt" type="Channel Mechanism">
-                    <bio:parameter name="gmax" value="80.0">
-                        <bio:group>OneSecGrp_SectionRef_6</bio:group>
-                    </bio:parameter>
-                </bio:mechanism>
-
                 <bio:mechanism name="kdrmt" type="Channel Mechanism">
                     <bio:parameter name="gmax" value="0.1">
                         <bio:group>all</bio:group>
@@ -58,28 +52,12 @@
                     </bio:parameter>
                 </bio:mechanism>
 
-                <bio:mechanism name="nax" type="Channel Mechanism">
-                    <bio:parameter name="gmax" value="800.0">
-                        <bio:group>OneSecGrp_SectionRef_6</bio:group>
-                    </bio:parameter>
-                    <bio:parameter name="sh" value="0.0">    <!--Note: Units of extra parameters are not known, except if it's e!!-->
-
-                        <bio:group>OneSecGrp_SectionRef_6</bio:group>
-                    </bio:parameter>
-                </bio:mechanism>
-
                 <bio:mechanism name="pas" type="Channel Mechanism" passive_conductance="true">
                     <bio:parameter name="e" value="-65.0">
                         <bio:group>all</bio:group>
                     </bio:parameter>
                     <bio:parameter name="gmax" value="-1.0E8">
                         <bio:group>all</bio:group>
-                    </bio:parameter>
-                </bio:mechanism>
-
-                <bio:mechanism name="pas" type="Channel Mechanism" passive_conductance="true">
-                    <bio:parameter name="gmax" value="1.0">
-                        <bio:group>OneSecGrp_SectionRef_6</bio:group>
                     </bio:parameter>
                 </bio:mechanism>
 

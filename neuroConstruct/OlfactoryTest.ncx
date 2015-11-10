@@ -202,7 +202,7 @@ See https://github.com/OpenSourceBrain/OlfactoryTest/issues
    <void method="get">
     <string>Cell Type</string>
     <void method="add">
-     <string>MT_hi_nseg</string>
+     <string>MT</string>
     </void>
     <void method="add">
      <string>Simple_kdrmt_mod</string>
@@ -223,7 +223,7 @@ See https://github.com/OpenSourceBrain/OlfactoryTest/issues
      <string>Simple_nax_mod</string>
     </void>
     <void method="add">
-     <string>GC_hi_nseg</string>
+     <string>GC</string>
     </void>
     <void method="add">
      <string>Simple_ca_g</string>
@@ -1036,7 +1036,7 @@ See https://github.com/OpenSourceBrain/OlfactoryTest/issues
       <string>CG_GC_v_1</string>
      </void>
      <void property="segmentId">
-      <string>4</string>
+      <string>3</string>
      </void>
     </object>
    </void>
@@ -1825,6 +1825,34 @@ See https://github.com/OpenSourceBrain/OlfactoryTest/issues
      </void>
     </object>
    </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG_GC</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>CG_GC_v</string>
+     </void>
+     <void property="maxValue">
+      <float>50.0</float>
+     </void>
+     <void property="minValue">
+      <float>-90.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CG_GC_v_2</string>
+     </void>
+     <void property="segmentId">
+      <string>1</string>
+     </void>
+    </object>
+   </void>
   </void>
  </object>
  <object class="ucl.physiol.neuroconstruct.project.ProjectProperties">
@@ -1870,11 +1898,11 @@ See https://github.com/OpenSourceBrain/OlfactoryTest/issues
     <string></string>
    </void>
    <void method="put">
-    <float>-1.0</float>
+    <float>1.0</float>
     <string></string>
    </void>
    <void method="put">
-    <float>1.0</float>
+    <float>-1.0</float>
     <string></string>
    </void>
    <void method="put">
@@ -2077,7 +2105,7 @@ echo &quot;This first step before the final reset is to initialise the value of 
  </object>
  <object class="ucl.physiol.neuroconstruct.simulation.SimulationParameters">
   <void property="dt">
-   <float>0.001</float>
+   <float>0.01</float>
   </void>
   <void property="duration">
    <float>100.0</float>
@@ -2086,7 +2114,7 @@ echo &quot;This first step before the final reset is to initialise the value of 
    <float>0.11</float>
   </void>
   <void property="reference">
-   <string>Sim_676</string>
+   <string>Sim_684</string>
   </void>
   <void property="saveCopyGenSimFiles">
    <boolean>true</boolean>
@@ -2577,6 +2605,9 @@ echo &quot;This first step before the final reset is to initialise the value of 
       </void>
       <void method="add">
        <string>CG_GC_v_1</string>
+      </void>
+      <void method="add">
+       <string>CG_GC_v_2</string>
       </void>
       <void method="add">
        <string>Var_0</string>
