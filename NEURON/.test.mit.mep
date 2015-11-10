@@ -1,0 +1,8 @@
+# Script for running automated tests on OSB using Travis-CI, see https://github.com/OpenSourceBrain/osb-model-validation
+
+system: Testing MT
+
+experiments:
+  spiking:
+    expected:
+      spike times: [0.051625]
