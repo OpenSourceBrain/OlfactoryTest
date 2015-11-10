@@ -5,4 +5,4 @@ system: Testing MT
 experiments:
   spiking:
     expected:
-      spike times: [0.051625]
+      spike times: [0.05154, 0.11157, 0.17447, 0.23772]

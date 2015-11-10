@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<java version="1.7.0_79" class="java.beans.XMLDecoder">
+<java version="1.7.0_85" class="java.beans.XMLDecoder">
 
 <!-- This is a neuroConstruct project file. It's best to open this
 file with neuroConstruct, as opposed to editing it directly. 
@@ -1855,7 +1855,7 @@ Use different ena for GC and MT
    </object>
   </void>
   <void property="minRadius">
-   <float>2.0</float>
+   <float>1.0</float>
   </void>
   <void property="showRegions">
    <boolean>false</boolean>
@@ -1872,11 +1872,11 @@ Use different ena for GC and MT
     <string></string>
    </void>
    <void method="put">
-    <float>-1.0</float>
+    <float>1.0</float>
     <string></string>
    </void>
    <void method="put">
-    <float>1.0</float>
+    <float>-1.0</float>
     <string></string>
    </void>
    <void method="put">
@@ -2079,7 +2079,7 @@ echo &quot;This first step before the final reset is to initialise the value of 
  </object>
  <object class="ucl.physiol.neuroconstruct.simulation.SimulationParameters">
   <void property="dt">
-   <float>0.01</float>
+   <float>0.001</float>
   </void>
   <void property="duration">
    <float>100.0</float>
@@ -2088,7 +2088,7 @@ echo &quot;This first step before the final reset is to initialise the value of 
    <float>0.11</float>
   </void>
   <void property="reference">
-   <string>Sim_667</string>
+   <string>Sim_676</string>
   </void>
   <void property="saveCopyGenSimFiles">
    <boolean>true</boolean>
@@ -2328,6 +2328,9 @@ echo &quot;This first step before the final reset is to initialise the value of 
         <int>11</int>
        </void>
       </void>
+      <void property="fixedNum">
+       <float>260.0</float>
+      </void>
      </void>
      <void property="reference">
       <string>Input_7</string>
@@ -2351,6 +2354,9 @@ echo &quot;This first step before the final reset is to initialise the value of 
         <object idref="NumberGenerator9"/>
         <int>11</int>
        </void>
+      </void>
+      <void property="fixedNum">
+       <float>260.0</float>
       </void>
      </void>
      <void property="reference">
@@ -2555,9 +2561,6 @@ echo &quot;This first step before the final reset is to initialise the value of 
       <void method="add">
        <string>CG_GC</string>
       </void>
-      <void method="add">
-       <string>CG_MT</string>
-      </void>
      </void>
      <void property="inputs">
       <void method="add">
@@ -2585,7 +2588,7 @@ echo &quot;This first step before the final reset is to initialise the value of 
       </void>
      </void>
      <void property="simDuration">
-      <float>200.0</float>
+      <float>300.0</float>
      </void>
     </object>
    </void>
