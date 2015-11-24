@@ -5,4 +5,4 @@ system: Testing Grc
 experiments:
   spiking:
     expected:
-      spike times: [0.044925, 0.13225, 0.224112]
+      spike times: [0.044938, 0.132262, 0.224125]
