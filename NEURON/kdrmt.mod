@@ -3,6 +3,7 @@ TITLE K-DR
 : M.Migliore Jan. 2002
 
 NEURON {
+    THREADSAFE
     SUFFIX kdrmt
     USEION k READ ek WRITE ik
     RANGE  gbar

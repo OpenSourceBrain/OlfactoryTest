@@ -3,6 +3,7 @@ TITLE K-A
 : M.Migliore Jan. 2002
 
 NEURON {
+	THREADSAFE
 	SUFFIX kamt
 	USEION k READ ek WRITE ik
 	RANGE  gbar

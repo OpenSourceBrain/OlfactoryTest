@@ -4,6 +4,7 @@ TITLE nax
 : added sh to account for higher threshold M.Migliore, Apr.2002
 
 NEURON {
+    THREADSAFE
     SUFFIX nax
     USEION na READ ena WRITE ina
     RANGE  gbar, sh
