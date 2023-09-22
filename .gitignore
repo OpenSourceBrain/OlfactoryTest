@@ -20,5 +20,4 @@ simulations
 *py.class
 
 NEURON/*.dat
-
-
+arm64
